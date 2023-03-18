@@ -1,0 +1,158 @@
+body{
+    font: 60/1.5 sans-serif, aria;
+    background-color: azure;
+    margin:0;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+    background: white;
+    border: 3px black solid;
+
+}
+
+button{
+    margin-top: 10px;
+    border: 3px white thin;
+    width: 30%;
+    background-color: black;
+    border-radius: 15px;
+    color: azure;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form{
+    margin: 30px;
+    padding: 20px;
+    width: 25%;
+    border:2px black solid ;
+    border-radius: 20px;
+    background-color:lightgrey;
+    color: whitesmoke;
+}
+
+.box{
+    background-color: lightgray;
+    color: cornsilk;
+    width:32% ;
+    text-align: center;
+    margin-left: 500px;
+    border: 2px black solid;
+    border-radius: 20px;
+
+
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    background: purple;
+    color: black;
+    border: 3px black solid;
+}
+
+header .highlight{
+    padding: 15px;
+    margin: 0;
+
+}
+
+header li{
+    cursor: pointer;
+    float: left;
+    padding: 0 20px 0 20px;
+    display: inline;
+
+ 
+}
+
+header a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+header a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+header nav{
+    float: right;
+    padding-top: 10px;
+}
+
+header wrapper{
+    margin: 0;
+}
+
+header .highlight, header .food a{
+    color: purple;
+    font-weight: bold; 
+    
+}
+
+
+.intro{
+    box-sizing: border-box;
+    border: 3px black solid;
+    width: 38%;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+img{
+   margin-top: 20px;
+   box-shadow: 2px 2px 4px 6px black;
+   box-sizing: border-box;
+   background-color: wheat ;
+   cursor: pointer;
+   float: inline;
+   border-radius: 25px;
+   transform:rotateX('angle')
+
+}
+
+img:hover{
+    
+} 
+
+#name{
+    font-weight: 300;
+    font-style: italic;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.place{
+    background-color: black;
+    color: white;
+    border: 3px black thin;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
